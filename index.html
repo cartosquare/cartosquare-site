@@ -8,6 +8,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+
+	<link rel="stylesheet" href="./dist/leaflet/leaflet.css"/>
     <link rel="icon" href="./favicon.ico">
 
     <title>Cover Template for Bootstrap</title>
@@ -19,7 +21,7 @@
     <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="main.css" rel="stylesheet">
+    <link href="cover.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -42,22 +44,25 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-                <h3 class="masthead-brand"><a href="#">CartoSquare</a></h3>
+                <h3 class="masthead-brand"><a href="#">制图家</a></h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">制图</a></li>
-                  <li><a href="#">博客</a></li>
-                  <li><a href="#">关于</a></li>
+                  <li class="active"><a href="#">首页</a></li>
+                  <li><a href="/data.html">数据</a></li>
+                  <li><a href="/map.html">制图</a></li>
+                  <li><a href="www.blog.cartosquare.com">博客</a></li>
+                  <li><a href="/about.html">关于</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">图所不能</h1>
-            <p class="lead">制图家（CartoSquare）是制图的天地，这里的图无所不能。</p>
+            <h1 class="cover-heading">你是制图家</h1>
+            <p class="lead">数据纷繁，我们采集求真；绘图不易，我们精雕细琢</p>
+            <p class="lead">只为你成为一个完美的制图家</p>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">了解更多</a>
+              <a href="#" class="btn btn-lg btn-default">开始制图</a>
             </p>
           </div>
 
@@ -80,5 +85,8 @@
     <script src="./dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+      
+    <script src="./dist/leaflet/leaflet.js"></script>
+    <script src="./page-js/map.js"></script>
   </body>
 </html>
