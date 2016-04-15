@@ -1,1 +1,3 @@
 # cartosquare-site
+
+## Licence MIT
