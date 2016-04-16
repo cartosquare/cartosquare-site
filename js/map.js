@@ -2,7 +2,7 @@ var mymap = L.map('map-container').setView([39.9, 116.3], 10);
 
 var mapid = 0;
 
-$.get('http://localhost:3050/visit', function(data) {
+$.get('/backend/visit', function(data) {
     console.log('你是第' + data.key + '个制图者！');
     mapid = parseInt(data.key);
     

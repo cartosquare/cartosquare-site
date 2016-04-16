@@ -58,7 +58,8 @@ for (var i = 0; i < editorIDList.length; ++i) {
     // Hook up the validation indicator to update its
     // status whenever the editor changes
     var editor = editors[editorIDList[i]];
-    editor.on('change', function () {
+    editor.on('ready', function() {
+        editor.on('change', function () {
         // Get an array of errors from the validator
         var errors = editor.validate();
         var indicator = document.getElementById('valid_indicator');
@@ -73,6 +74,7 @@ for (var i = 0; i < editorIDList.length; ++i) {
             indicator.className = 'label label-success';
             indicator.textContent = 'valid';
         }
+    });
     });
 }
 
