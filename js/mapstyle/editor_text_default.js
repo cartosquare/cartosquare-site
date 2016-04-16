@@ -83,4 +83,4 @@ var editor_text_default = {
     "label_text_font": "Microsoft Yahei",
     "label_text_color": "#000033"
   }
-}
+};

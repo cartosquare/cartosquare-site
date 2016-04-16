@@ -1,14 +1,14 @@
 var editorIDList = [
-    "editor_top",
-    "editor_admin",
-    "editor_amenity",
-    "editor_barriers",
-    "editor_buildings",
-    "editor_landcover",
-    "editor_roads",
-    "editor_text",
-    "editor_water",
-    "editor_others"
+    "top",
+    "admin",
+    "amenity",
+    "barriers",
+    "buildings",
+    "landcover",
+    "roads",
+    "text",
+    "water",
+    "others"
 ];
 
 var editorDefaultValues = [
@@ -24,25 +24,11 @@ var editorDefaultValues = [
     editor_others_default
 ];
 
-var classPathList = [
-    "class-top.json",
-    "class-admin.json",
-    "class-amenity.json",
-    "class-barriers.json",
-    "class-buildings.json",
-    "class-landcover.json",
-    "class-roads.json",
-    "class-text.json",
-    "class-water.json",
-    "class-others.json"
-]
-
 var defaultValues = {};
 var editors = {};
 
 JSONEditor.defaults.options.theme = 'bootstrap3';
 JSONEditor.defaults.options.iconlib = "bootstrap3";
-
 // create all the editor panels
 for (var i = 0; i < editorIDList.length; ++i) {
     editors[editorIDList[i]] = new JSONEditor(document.getElementById(editorIDList[i]), {
@@ -58,21 +44,16 @@ for (var i = 0; i < editorIDList.length; ++i) {
 
         // Seed the form with a starting value
         startval: editorDefaultValues[i],
-
         // Disable additional properties
         no_additional_properties: true,
-
         // Require all properties by default
         required_by_default: true,
-
         disable_edit_json: true,
-
         disable_properties: true
     });
 }
 
 // validate
-var indicatorList = {};
 for (var i = 0; i < editorIDList.length; ++i) {
     // Hook up the validation indicator to update its
     // status whenever the editor changes
@@ -84,22 +65,11 @@ for (var i = 0; i < editorIDList.length; ++i) {
 
         // Not valid
         if (errors.length) {
-            indicatorList[editorIDList[i]] = false;
-        }
-        // Valid
-        else {
-            indicatorList[editorIDList[i]] = true;
-        }
-
-        var hasError = false;
-        for (k in indicatorList) {
-            if (!indicatorList[k]) {
-                indicator.className = 'label label-warning';
-                indicator.textContent = 'not valid';
-                hasError = true;
-            }
-        }
-        if (!hasError) {
+            indicator.className = 'label label-warning';
+            indicator.textContent = 'not valid';
+            hasError = true;
+        } else {
+            // Valid
             indicator.className = 'label label-success';
             indicator.textContent = 'valid';
         }
@@ -108,19 +78,33 @@ for (var i = 0; i < editorIDList.length; ++i) {
 
 // Hook up the submit button to log to the console
 document.getElementById('submit').addEventListener('click', function () {
+    var styles = {};
+    
     // Get the value from the editor
     for (var i = 0; i < editorIDList.length; ++i) {
         var editor = editors[editorIDList[i]];
         var style;
         if (i == 0) {
-            style = mapStyle.getTopStyle(editor.getValue());
+            style = getTopStyle(editor.getValue());
         } else {
-            style = mapStyle.getCommonStyle(editor.getValue());
+            style = getCommonStyle(editor.getValue());
         }
 
-        console.log('write file: ' + classPathList[i]);
-        fs.writeFileSync('./map/includes/' + classPathList[i], JSON.stringify(style));
+        styles[editorIDList[i]] = JSON.stringify(style);
     }
+    
+    $.ajax({
+        type: 'POST',
+        url: 'http://localhost:3060/style',
+        data: {
+            styles: styles,
+            key: mapid
+        },
+        success: function(data) {
+            console.log('更新地图样式成功！');
+        }
+    });
+    
 });
 
 // Hook up the Restore to Default button
