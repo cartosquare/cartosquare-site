@@ -1,0 +1,81 @@
+{
+  "title": "障碍物",
+  "id": "barriers",
+  "type": "object",
+  "properties": {
+    "line-featuers_cliff-lowz": {
+      "propertyOrder": 1,
+      "properties": {
+        "line_image": {
+          "type": "string",
+          "title": "线纹理"
+        }
+      },
+      "type": "object",
+      "title": "悬崖"
+    },
+    "line-featuers_cliff-highz": {
+      "propertyOrder": 2,
+      "properties": {
+        "line_image": {
+          "type": "string",
+          "title": "线纹理"
+        }
+      },
+      "type": "object",
+      "title": "悬崖"
+    },
+    "line-featuers_embankment": {
+      "propertyOrder": 3,
+      "properties": {
+        "line_image": {
+          "type": "string",
+          "title": "线纹理"
+        },
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "用来在低洼地架起道路或是铁路的桥梁"
+    },
+    "line-featuers_hedge": {
+      "propertyOrder": 4,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "类似于篱笆的绿色分隔线"
+    },
+    "line-featuers_barrier": {
+      "propertyOrder": 5,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "线状分隔物"
+    },
+    "polygon-barriers_hedge": {
+      "propertyOrder": 6,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "面状的植物分隔带"
+    }
+  }
+}

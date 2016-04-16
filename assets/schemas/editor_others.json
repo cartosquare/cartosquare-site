@@ -1,0 +1,94 @@
+{
+  "title": "其它",
+  "id": "others",
+  "type": "object",
+  "properties": {
+    "interpolation_lines": {
+      "propertyOrder": 1,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": ""
+    },
+    "housenumbers": {
+      "propertyOrder": 2,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": ""
+    },
+    "national_park": {
+      "propertyOrder": 3,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": ""
+    },
+    "theam_park": {
+      "propertyOrder": 4,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": ""
+    }
+  }
+}

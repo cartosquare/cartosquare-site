@@ -1,0 +1,511 @@
+{
+  "title": "标注",
+  "id": "text",
+  "type": "object",
+  "properties": {
+    "text-roads": {
+      "propertyOrder": 1,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "道路标注"
+    },
+    "text-island": {
+      "propertyOrder": 2,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "岛屿标注"
+    },
+    "text-poi": {
+      "propertyOrder": 3,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "与食物相关的商店的标注"
+    },
+    "text-parking_public": {
+      "propertyOrder": 4,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "公开停车场标注"
+    },
+    "text-parking_private": {
+      "propertyOrder": 5,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "私人停车场标注"
+    },
+    "text-place_of_worship": {
+      "propertyOrder": 6,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "宗教标注"
+    },
+    "text-wood": {
+      "propertyOrder": 7,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "深林标注"
+    },
+    "text-peak": {
+      "propertyOrder": 8,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "山峰标注"
+    },
+    "text-memorial_archaeological": {
+      "propertyOrder": 9,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "历史遗迹标注"
+    },
+    "text-water": {
+      "propertyOrder": 10,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "河流湖泊标注"
+    },
+    "text-point": {
+      "propertyOrder": 11,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "(leisure != '' or landuse != '') and point = 'yes'"
+    },
+    "text-poi2": {
+      "propertyOrder": 12,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "bay,spring,alpine_but,shelter,bank"
+    },
+    "text-poi3": {
+      "propertyOrder": 13,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "hotel,embassy,guest_house,bed_and_breakfast,fuel,bus_station"
+    },
+    "text-marina": {
+      "propertyOrder": 14,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "摩托艇停靠处"
+    },
+    "text-poi4": {
+      "propertyOrder": 15,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "theam_park,museum"
+    },
+    "text-poi5": {
+      "propertyOrder": 16,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": ""
+    },
+    "text-poi6": {
+      "propertyOrder": 17,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": ""
+    },
+    "text-poi7": {
+      "propertyOrder": 18,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": ""
+    },
+    "text-danger_area": {
+      "propertyOrder": 19,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "危险区域标注"
+    },
+    "text-gate": {
+      "propertyOrder": 20,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "登机口标注"
+    },
+    "text-area": {
+      "propertyOrder": 21,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "面标注"
+    }
+  }
+}

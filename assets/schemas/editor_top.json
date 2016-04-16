@@ -1,0 +1,59 @@
+{
+  "title": "全局定义",
+  "type": "object",
+  "id": "osm",
+  "properties": {
+    "background_color": {
+      "type": "string",
+      "format": "color",
+      "title": "地图背景颜色"
+    },
+    "layers_files": {
+      "type": "array",
+      "format": "table",
+      "title": "图层",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "图层名称",
+            "enum": [
+              "land",
+              "landcover",
+              "water",
+              "tunnels",
+              "landuse_overlay",
+              "turning_circle_casing",
+              "footbikecycle_tunnels",
+              "tracks_tunnels",
+              "barriers",
+              "highway_area_casing",
+              "minor_roads_casing",
+              "highway_area_fill",
+              "buildings",
+              "tracks_notunnel_nobridge",
+              "minor_roads_fill",
+              "turning_circle_fill",
+              "ferry_routes",
+              "aerialways",
+              "roads",
+              "pre_bridges",
+              "bridges",
+              "rams",
+              "guideways",
+              "admin",
+              "placenames",
+              "power",
+              "road_text_name",
+              "text",
+              "house_names",
+              "national_theme_parks"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

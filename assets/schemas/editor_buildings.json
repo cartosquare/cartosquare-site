@@ -1,0 +1,82 @@
+{
+  "title": "建筑",
+  "id": "buildings",
+  "type": "object",
+  "properties": {
+    "buildings-station": {
+      "propertyOrder": 1,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "火车站台"
+    },
+    "buildings-supermarket": {
+      "propertyOrder": 2,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "超市"
+    },
+    "buildings-place_of_worship": {
+      "propertyOrder": 3,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "教堂或清真寺"
+    },
+    "buildings-light": {
+      "propertyOrder": 4,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "一般的建筑"
+    },
+    "buildings-terminal": {
+      "propertyOrder": 5,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "航站楼"
+    }
+  }
+}

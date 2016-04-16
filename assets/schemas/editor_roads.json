@@ -1,0 +1,793 @@
+{
+  "title": "道路",
+  "id": "roads",
+  "type": "object",
+  "properties": {
+    "casing_motorway": {
+      "propertyOrder": 1,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "高速公路外边线"
+    },
+    "casing_trunk": {
+      "propertyOrder": 2,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市主干道外边线"
+    },
+    "casing_primary": {
+      "propertyOrder": 3,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市以一级道路外边线"
+    },
+    "casing_secondary": {
+      "propertyOrder": 4,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市以二级道路外边线"
+    },
+    "casing_street": {
+      "propertyOrder": 5,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市街道隧道外边线"
+    },
+    "casing_pedestrian": {
+      "propertyOrder": 6,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "人行道外边线"
+    },
+    "casing_raceway": {
+      "propertyOrder": 7,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "跑道外边线"
+    },
+    "casing_living_street": {
+      "propertyOrder": 8,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "生活道路外边线"
+    },
+    "taxiway": {
+      "propertyOrder": 9,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "滑行道。连接机场跑道和机场设施的道路"
+    },
+    "runway": {
+      "propertyOrder": 10,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "跑道。用于飞机的着陆和起飞制备的矩形区域"
+    },
+    "bridleway": {
+      "propertyOrder": 11,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "马道"
+    },
+    "path": {
+      "propertyOrder": 12,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "未指定类型的道路"
+    },
+    "footway": {
+      "propertyOrder": 13,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "足道"
+    },
+    "track": {
+      "propertyOrder": 14,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "主要用于农业和林业使用的道路"
+    },
+    "cycleway": {
+      "propertyOrder": 15,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "自行车道"
+    },
+    "steps": {
+      "propertyOrder": 16,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "台阶路"
+    },
+    "guideway": {
+      "propertyOrder": 17,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "有轨电车、有轨巴士"
+    },
+    "railway-turntable": {
+      "propertyOrder": 18,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "铁路转弯道"
+    },
+    "railway-platform": {
+      "propertyOrder": 19,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "月台"
+    },
+    "pedestrian": {
+      "propertyOrder": 20,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "人行道"
+    },
+    "service": {
+      "propertyOrder": 21,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "服务道路"
+    },
+    "living_street": {
+      "propertyOrder": 22,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "生活道路"
+    },
+    "road": {
+      "propertyOrder": 23,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "普通道路"
+    },
+    "residential": {
+      "propertyOrder": 24,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "居住区道路"
+    },
+    "tertiary": {
+      "propertyOrder": 25,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "街道"
+    },
+    "secondary": {
+      "propertyOrder": 26,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "二级道路"
+    },
+    "primary": {
+      "propertyOrder": 27,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "一级道路"
+    },
+    "trunk": {
+      "propertyOrder": 28,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市主干道"
+    },
+    "motorway": {
+      "propertyOrder": 29,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "高速公路"
+    },
+    "subway": {
+      "propertyOrder": 30,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "地铁"
+    },
+    "light_rail": {
+      "propertyOrder": 31,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "轻轨"
+    },
+    "tram": {
+      "propertyOrder": 32,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "电车"
+    },
+    "miniature": {
+      "propertyOrder": 33,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "公园里的微型火车"
+    },
+    "narrow_gauge": {
+      "propertyOrder": 34,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "窄轨"
+    },
+    "tram-light_rail-narrow_gauge-lowz": {
+      "propertyOrder": 35,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "电车、窄轨、轻轨"
+    },
+    "tram-light_rail-narrow_gauge-middlez": {
+      "propertyOrder": 36,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "电车、窄轨、轻轨"
+    },
+    "rail-lowz": {
+      "propertyOrder": 37,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "铁路"
+    },
+    "rail": {
+      "propertyOrder": 38,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "铁路"
+    },
+    "rail_disused": {
+      "propertyOrder": 39,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "废弃的铁路"
+    },
+    "ferry": {
+      "propertyOrder": 40,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "航站楼之间的摆渡路线"
+    },
+    "cable_car": {
+      "propertyOrder": 41,
+      "properties": {
+        "line_image": {
+          "type": "string",
+          "title": "线纹理"
+        }
+      },
+      "type": "object",
+      "title": "缆车"
+    },
+    "chair_lift": {
+      "propertyOrder": 42,
+      "properties": {
+        "line_image": {
+          "type": "string",
+          "title": "线纹理"
+        }
+      },
+      "type": "object",
+      "title": "升降椅"
+    },
+    "monorail": {
+      "propertyOrder": 43,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "单轨铁路"
+    },
+    "railway_short": {
+      "propertyOrder": 44,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "相对短的铁路"
+    },
+    "highway-construction": {
+      "propertyOrder": 45,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "在建、待建道路"
+    },
+    "highway-area_platform": {
+      "propertyOrder": 46,
+      "properties": {
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        },
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "站台"
+    },
+    "highway-area_track": {
+      "propertyOrder": 47,
+      "properties": {
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        },
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "农业和林业用地（面状）"
+    },
+    "highway-area_pedestrian": {
+      "propertyOrder": 48,
+      "properties": {
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        },
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "农业和林业用地（面状）"
+    },
+    "highway-area_residential": {
+      "propertyOrder": 49,
+      "properties": {
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        },
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "居民区道路（面状）"
+    },
+    "highway-area_living_street": {
+      "propertyOrder": 50,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "生活道路"
+    },
+    "bridges-outline": {
+      "propertyOrder": 51,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "高架桥外边线"
+    },
+    "tunnels-fill_motorway": {
+      "propertyOrder": 52,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "高速公路隧道"
+    },
+    "tunnels-fill_trunk": {
+      "propertyOrder": 53,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市主干道隧道"
+    },
+    "tunnels-fill_primary": {
+      "propertyOrder": 54,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市以一级道路隧道"
+    },
+    "tunnels-fill_secondary": {
+      "propertyOrder": 55,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市以二级道路隧道"
+    },
+    "tunnels-fill_street": {
+      "propertyOrder": 56,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市街道隧道"
+    },
+    "tunnels-fill_residential": {
+      "propertyOrder": 57,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市居民区道路隧道"
+    },
+    "access-permissive": {
+      "propertyOrder": 58,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "经私人准许允许通行"
+    },
+    "access-destination": {
+      "propertyOrder": 59,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "准许目的地在限定区域内通行"
+    },
+    "access-private": {
+      "propertyOrder": 60,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "禁止通行"
+    },
+    "highway-direction": {
+      "propertyOrder": 61,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "道路方向箭头"
+    },
+    "polygon-barriers": {
+      "propertyOrder": 62,
+      "properties": {
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "面状的其它分隔带"
+    },
+    "minor-roads-casing_motorway": {
+      "propertyOrder": 63,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "高速公路外边线"
+    },
+    "minor-roads-casing_trunk": {
+      "propertyOrder": 64,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市主干道外边线"
+    }
+  }
+}

@@ -1,0 +1,778 @@
+{
+  "title": "土地利用",
+  "id": "landcover",
+  "type": "object",
+  "properties": {
+    "landcover-swimming_pool": {
+      "propertyOrder": 1,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "游泳池"
+    },
+    "landcover-playground": {
+      "propertyOrder": 2,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "小孩玩耍的地方"
+    },
+    "landcover-camp_picnic": {
+      "propertyOrder": 3,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "露营地、野餐地"
+    },
+    "landcover-attraction": {
+      "propertyOrder": 4,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "旅游景点"
+    },
+    "landcover-quarry": {
+      "propertyOrder": 5,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "采矿地"
+    },
+    "landcover-vineyard-lowz": {
+      "propertyOrder": 6,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "葡萄种植地-低级别"
+    },
+    "landcover-vineyard-highz": {
+      "propertyOrder": 7,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "葡萄种植地-高级别"
+    },
+    "landcover-orchard": {
+      "propertyOrder": 8,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "粮食生产地的树木和灌木"
+    },
+    "landcover-grave_yard-lowz": {
+      "propertyOrder": 9,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "墓地"
+    },
+    "landcover-grave_yard-jewish": {
+      "propertyOrder": 10,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "墓地"
+    },
+    "landcover-grave_yard-generic": {
+      "propertyOrder": 11,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "墓地"
+    },
+    "landcover-residential": {
+      "propertyOrder": 12,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "居住地"
+    },
+    "landcover-garages": {
+      "propertyOrder": 13,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "车库"
+    },
+    "landcover-barracks": {
+      "propertyOrder": 14,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "军营"
+    },
+    "landcover-field": {
+      "propertyOrder": 15,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "空旷杂草地"
+    },
+    "landcover-danger_area-lowz": {
+      "propertyOrder": 16,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "危险区、禁区"
+    },
+    "landcover-danger_area-highz": {
+      "propertyOrder": 17,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "危险区、禁区"
+    },
+    "landcover-grass": {
+      "propertyOrder": 18,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "草地"
+    },
+    "landcover-service_rest_area": {
+      "propertyOrder": 19,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "高速公路休息区"
+    },
+    "landcover-park": {
+      "propertyOrder": 20,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "公园"
+    },
+    "landcover-zoo": {
+      "propertyOrder": 21,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "动物园"
+    },
+    "landcover-common": {
+      "propertyOrder": 22,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "不知道是什么东西"
+    },
+    "landcover-garden": {
+      "propertyOrder": 23,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "公园"
+    },
+    "landcover-golf_course": {
+      "propertyOrder": 24,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "高尔夫球场"
+    },
+    "landcover-allotments-lowz": {
+      "propertyOrder": 25,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "山寨？非官方居住地"
+    },
+    "landcover-allotments-highz": {
+      "propertyOrder": 26,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "山寨？非官方居住地"
+    },
+    "landcover-forest-lowz": {
+      "propertyOrder": 27,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "森林"
+    },
+    "landcover-forest-highz": {
+      "propertyOrder": 28,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "森林"
+    },
+    "landcover-farmyard": {
+      "propertyOrder": 29,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "农场旁的院子，有房子、农具等"
+    },
+    "landcover-farm": {
+      "propertyOrder": 30,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "农场"
+    },
+    "landcover-recreation": {
+      "propertyOrder": 31,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "球场、网球场等场地"
+    },
+    "landcover-village_green": {
+      "propertyOrder": 32,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "村庄中心的绿地"
+    },
+    "landcover-retail": {
+      "propertyOrder": 33,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "主要的商店"
+    },
+    "landcover-industrial_railway": {
+      "propertyOrder": 34,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "工业、铁路用地"
+    },
+    "landcover-pow_station": {
+      "propertyOrder": 35,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "发电站"
+    },
+    "landcover-pow_substation": {
+      "propertyOrder": 36,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "变电站"
+    },
+    "landcover-commercial": {
+      "propertyOrder": 37,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "商业用地"
+    },
+    "landcover-develop": {
+      "propertyOrder": 38,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "改造过程中的土地。拆迁、待建或正在建造中"
+    },
+    "landcover-wood": {
+      "propertyOrder": 39,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "林地"
+    },
+    "landcover-desert": {
+      "propertyOrder": 40,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "沙漠"
+    },
+    "landcover-sand": {
+      "propertyOrder": 41,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "沙地"
+    },
+    "landcover-heath": {
+      "propertyOrder": 42,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "地势较低的未开垦的土地，灌木丛，但很少或根本没有树木覆盖"
+    },
+    "landcover-grassland": {
+      "propertyOrder": 43,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "杂草丛"
+    },
+    "landcover-scrub": {
+      "propertyOrder": 44,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "覆盖着灌木和矮小树木的荒地"
+    },
+    "landcover-school_hospital": {
+      "propertyOrder": 45,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "医疗教育用地"
+    },
+    "landcover-parking": {
+      "propertyOrder": 46,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "停车场"
+    },
+    "landcover-prison": {
+      "propertyOrder": 47,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "监狱"
+    },
+    "landcover-apron": {
+      "propertyOrder": 48,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "机场停机坪"
+    },
+    "landcover-aerodrome": {
+      "propertyOrder": 49,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "fill_opacity": {
+          "type": "number",
+          "title": "透明度",
+          "default": 1
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "机场"
+    },
+    "landcover-beach": {
+      "propertyOrder": 50,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "沙滩"
+    },
+    "landcover-highway_service_rest": {
+      "propertyOrder": 51,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "高速公路服务区、休息区"
+    },
+    "landcover-cutline": {
+      "propertyOrder": 52,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "土地利用人工界线"
+    },
+    "sports-stadium": {
+      "propertyOrder": 53,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "运动馆"
+    },
+    "sports-track": {
+      "propertyOrder": 54,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "跑道"
+    },
+    "sports-pitch": {
+      "propertyOrder": 55,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "球场"
+    },
+    "landuse-overlay_military": {
+      "propertyOrder": 56,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "军事区"
+    },
+    "landuse-nature_reserve-lowz": {
+      "propertyOrder": 57,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "自然保护区"
+    },
+    "landuse-overlay-nature_reserve-highz": {
+      "propertyOrder": 58,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "自然保护区"
+    }
+  }
+}

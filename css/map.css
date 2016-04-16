@@ -1,0 +1,22 @@
+#map-container {
+    position: absolute;
+    width: 60%;
+    height: 92%;
+    top: 50px;
+
+}
+
+#editors {
+    position: absolute;
+    top: 50px;
+    margin-left: 61%;
+    width: 39%;
+    height: 92%;
+    overflow:auto;
+    border:1px;
+    float: right;
+}
+
+#bts {
+    float: right;
+}

@@ -1,0 +1,199 @@
+{
+  "title": "行政区划",
+  "id": "admin",
+  "type": "object",
+  "properties": {
+    "world": {
+      "propertyOrder": 1,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "世界陆地"
+    },
+    "buildup": {
+      "propertyOrder": 2,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "建成区"
+    },
+    "countries_boundary": {
+      "propertyOrder": 3,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "国家边界"
+    },
+    "admin01234": {
+      "propertyOrder": 4,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "2-4等级边界"
+    },
+    "admin5678": {
+      "propertyOrder": 5,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "5-8等级边界"
+    },
+    "admin-other": {
+      "propertyOrder": 6,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "9-10等级边界"
+    },
+    "placenames-large": {
+      "propertyOrder": 7,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "大洲、国家"
+    },
+    "placenames-capital": {
+      "propertyOrder": 8,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "首都"
+    },
+    "placenames-medium": {
+      "propertyOrder": 9,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "城市、城镇"
+    },
+    "placenames-small": {
+      "propertyOrder": 10,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "乡村"
+    },
+    "placenames-medium-small-highz": {
+      "propertyOrder": 11,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "乡镇"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "title": "水域",
+  "id": "water",
+  "type": "object",
+  "properties": {
+    "water-lines-casing": {
+      "propertyOrder": 1,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "河流外边线"
+    },
+    "water-line": {
+      "propertyOrder": 2,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "河流"
+    },
+    "water-weir": {
+      "propertyOrder": 3,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "水堰"
+    },
+    "water-dam": {
+      "propertyOrder": 4,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        }
+      },
+      "type": "object",
+      "title": "大坝"
+    },
+    "water-area_glacier-lowz": {
+      "propertyOrder": 5,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "冰川"
+    },
+    "water-area_glacier-highz": {
+      "propertyOrder": 6,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        },
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "冰川"
+    },
+    "water-area-docker_canal": {
+      "propertyOrder": 7,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        },
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "码头、人工运输渠"
+    },
+    "water-area-basin": {
+      "propertyOrder": 8,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "盆地"
+    },
+    "water-area-water": {
+      "propertyOrder": 9,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "湖泊河流"
+    },
+    "water-area-mud": {
+      "propertyOrder": 10,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "泥浆地"
+    },
+    "water-area-land": {
+      "propertyOrder": 11,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        }
+      },
+      "type": "object",
+      "title": "水中岛屿"
+    },
+    "water-area-wetland": {
+      "propertyOrder": 12,
+      "properties": {
+        "fill_image": {
+          "type": "string",
+          "title": "面纹理"
+        }
+      },
+      "type": "object",
+      "title": "湿地"
+    },
+    "glaciers-text": {
+      "propertyOrder": 13,
+      "properties": {
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "冰川标注"
+    },
+    "marinas-area": {
+      "propertyOrder": 14,
+      "properties": {
+        "outline_color": {
+          "type": "string",
+          "format": "color",
+          "title": "外边线颜色"
+        }
+      },
+      "type": "object",
+      "title": "休闲游艇和摩托艇的泊车处"
+    },
+    "piers-area": {
+      "propertyOrder": 15,
+      "properties": {
+        "fill_color": {
+          "type": "string",
+          "format": "color",
+          "title": "填充颜色"
+        },
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "码头上通往大海的桥梁"
+    },
+    "piers-breakwater_groyne": {
+      "propertyOrder": 16,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "码头上保护海岸的丁坝和石矶"
+    },
+    "waterway-lock_gate": {
+      "propertyOrder": 17,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "闸门"
+    }
+  }
+}

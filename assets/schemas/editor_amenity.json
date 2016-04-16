@@ -1,0 +1,1320 @@
+{
+  "title": "基础设施",
+  "id": "amenity",
+  "type": "object",
+  "properties": {
+    "amenity-stations-subway_entrance": {
+      "propertyOrder": 1,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "地铁出入口"
+    },
+    "amenity-stations-disused_station-lowz": {
+      "propertyOrder": 2,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "没用的站台"
+    },
+    "amenity-stations-disused_station-highz": {
+      "propertyOrder": 3,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "没用的站台"
+    },
+    "amenity-station-lowz": {
+      "propertyOrder": 4,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "站台"
+    },
+    "amenity-station-highz": {
+      "propertyOrder": 5,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "站台"
+    },
+    "amenity-station-halt-lowz": {
+      "propertyOrder": 6,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "小站台、电车站点"
+    },
+    "amenity-station-halt-highz": {
+      "propertyOrder": 7,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "小站台、电车站点"
+    },
+    "amenity-symbols-helipad": {
+      "propertyOrder": 8,
+      "properties": {
+        "label_icon": {
+          "type": "string",
+          "title": "icon"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "直升机升降台"
+    },
+    "amenity-symbols-airport": {
+      "propertyOrder": 9,
+      "properties": {
+        "label_icon": {
+          "type": "string",
+          "title": "icon"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "飞机场"
+    },
+    "amenity-symbols-aerodrome": {
+      "propertyOrder": 10,
+      "properties": {
+        "label_icon": {
+          "type": "string",
+          "title": "icon"
+        },
+        "label_text_font": {
+          "type": "string",
+          "enum": [
+            "Microsoft Yahei",
+            "Kaiti",
+            "Libian",
+            "SimHei",
+            "Songti",
+            "wawati"
+          ],
+          "title": "字体"
+        },
+        "label_text_color": {
+          "type": "string",
+          "format": "color",
+          "title": "文字颜色"
+        }
+      },
+      "type": "object",
+      "title": "飞机场，飞机在的主要地区"
+    },
+    "amenity-symbols-level_crossing-lowz": {
+      "propertyOrder": 11,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "铁路道路交叉口"
+    },
+    "amenity-symbols-level_crossing-highz": {
+      "propertyOrder": 12,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "铁路道路交叉口"
+    },
+    "amenity-symbols-lighthouse": {
+      "propertyOrder": 13,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "灯塔"
+    },
+    "amenity-symbols-peak": {
+      "propertyOrder": 14,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "山峰"
+    },
+    "amenity-symbols-volcano": {
+      "propertyOrder": 15,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "火山"
+    },
+    "amenity-symbols-cave_entrance": {
+      "propertyOrder": 16,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "山洞入口"
+    },
+    "amenity-symbols-cave_spring": {
+      "propertyOrder": 17,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "温泉"
+    },
+    "amenity-symbols-tree-lowz": {
+      "propertyOrder": 18,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "树"
+    },
+    "amenity-symbols-tree-highz": {
+      "propertyOrder": 19,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "树"
+    },
+    "amenity-symbols-power_wind": {
+      "propertyOrder": 20,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "风力发电"
+    },
+    "amenity-symbols-windmill": {
+      "propertyOrder": 21,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "古代风力发电屋"
+    },
+    "amenity-symbols-mast": {
+      "propertyOrder": 22,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "天线塔"
+    },
+    "amenity-symbols-mini_roundabout": {
+      "propertyOrder": 23,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "小环岛"
+    },
+    "amenity-symbols-gate": {
+      "propertyOrder": 24,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "路障"
+    },
+    "amenity-symbols-lift_gate": {
+      "propertyOrder": 25,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "可升降的路障"
+    },
+    "amenity-symbols-bollard": {
+      "propertyOrder": 26,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "道路中间的路障，用来阻止大车通过"
+    },
+    "amenity-points-alpine_hut": {
+      "propertyOrder": 27,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "高山小屋"
+    },
+    "amenity-points-shelter": {
+      "propertyOrder": 28,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "庇护所"
+    },
+    "amenity-points-atm": {
+      "propertyOrder": 29,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "自动取款机"
+    },
+    "amenity-points-bank": {
+      "propertyOrder": 30,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "银行"
+    },
+    "amenity-points-bar": {
+      "propertyOrder": 31,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "酒吧"
+    },
+    "amenity-points-bicycle_rental": {
+      "propertyOrder": 32,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "自行车租赁处"
+    },
+    "amenity-points-bus_stop-lowz": {
+      "propertyOrder": 33,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "公交车站"
+    },
+    "amenity-points-bus_stop-highz": {
+      "propertyOrder": 34,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "公交车站"
+    },
+    "amenity-points-traffic_light": {
+      "propertyOrder": 35,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "红绿灯"
+    },
+    "amenity-points-cafe": {
+      "propertyOrder": 36,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "咖啡厅"
+    },
+    "amenity-points-camp_site": {
+      "propertyOrder": 37,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "露营点"
+    },
+    "amenity-points-ford": {
+      "propertyOrder": 38,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "带水路段"
+    },
+    "amenity-points-caravan_site": {
+      "propertyOrder": 39,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "营地"
+    },
+    "amenity-points-car_sharing": {
+      "propertyOrder": 40,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "拼车点"
+    },
+    "amenity-points-chalet": {
+      "propertyOrder": 41,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "木屋"
+    },
+    "amenity-points-cinema": {
+      "propertyOrder": 42,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "电影院"
+    },
+    "amenity-points-fire_station": {
+      "propertyOrder": 43,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "消防局"
+    },
+    "amenity-points-fuel": {
+      "propertyOrder": 44,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "加油站"
+    },
+    "amenity-points-guest_house": {
+      "propertyOrder": 45,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "自营旅馆"
+    },
+    "amenity-points-bed_and_breakfast": {
+      "propertyOrder": 46,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "带早餐旅馆"
+    },
+    "amenity-points-bed_hospital": {
+      "propertyOrder": 47,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "医院"
+    },
+    "amenity-points-bed_hostel": {
+      "propertyOrder": 48,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "旅舍"
+    },
+    "amenity-points-bed_hotel": {
+      "propertyOrder": 49,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "酒店"
+    },
+    "amenity-points-motel": {
+      "propertyOrder": 50,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "汽车旅馆"
+    },
+    "amenity-points-embassy": {
+      "propertyOrder": 51,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "大使馆"
+    },
+    "amenity-points-library": {
+      "propertyOrder": 52,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "图书馆"
+    },
+    "amenity-points-courthouse": {
+      "propertyOrder": 53,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "法庭"
+    },
+    "amenity-points-lock": {
+      "propertyOrder": 54,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "闸门"
+    },
+    "amenity-points-mast": {
+      "propertyOrder": 55,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "天线塔"
+    },
+    "amenity-points-museum": {
+      "propertyOrder": 56,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "博物馆"
+    },
+    "amenity-points-public_parking": {
+      "propertyOrder": 57,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "开放停车场"
+    },
+    "amenity-points-private_parking": {
+      "propertyOrder": 58,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "私人停车场"
+    },
+    "amenity-points-pharmacy": {
+      "propertyOrder": 59,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "药店"
+    },
+    "amenity-points-christian": {
+      "propertyOrder": 60,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "基督教场所"
+    },
+    "amenity-points-muslim": {
+      "propertyOrder": 61,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "穆斯林场所"
+    },
+    "amenity-points-jewish": {
+      "propertyOrder": 62,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "犹太人场所"
+    },
+    "amenity-points-worship_others": {
+      "propertyOrder": 63,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "其它宗教场所"
+    },
+    "amenity-points-police": {
+      "propertyOrder": 64,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "警察局"
+    },
+    "amenity-points-post_box": {
+      "propertyOrder": 65,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "邮筒"
+    },
+    "amenity-points-post_office": {
+      "propertyOrder": 66,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "邮局"
+    },
+    "amenity-points-pub": {
+      "propertyOrder": 67,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "酒吧"
+    },
+    "amenity-points-biergarten": {
+      "propertyOrder": 68,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "露天花园啤酒店"
+    },
+    "amenity-points-recycling": {
+      "propertyOrder": 69,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "垃圾桶，垃圾回收处"
+    },
+    "amenity-points-restaurant": {
+      "propertyOrder": 70,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "饭店"
+    },
+    "amenity-points-fast_food": {
+      "propertyOrder": 71,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "快餐店"
+    },
+    "amenity-points-telephone": {
+      "propertyOrder": 72,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "电话亭"
+    },
+    "amenity-points-theatre": {
+      "propertyOrder": 73,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "剧院"
+    },
+    "amenity-points-toilets": {
+      "propertyOrder": 74,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "洗手间"
+    },
+    "amenity-points-drinking_water": {
+      "propertyOrder": 75,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "饮用水"
+    },
+    "amenity-points-drinking_prison": {
+      "propertyOrder": 76,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "监狱"
+    },
+    "amenity-points-view_point": {
+      "propertyOrder": 77,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "观景台"
+    },
+    "amenity-points-veterinary": {
+      "propertyOrder": 78,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "兽医"
+    },
+    "amenity-points-waste_basket": {
+      "propertyOrder": 79,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "垃圾桶"
+    },
+    "amenity-points-water_tower": {
+      "propertyOrder": 80,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "水塔"
+    },
+    "amenity-points-memorial": {
+      "propertyOrder": 81,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "纪念碑"
+    },
+    "amenity-points-archaeological_site": {
+      "propertyOrder": 82,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "历史遗迹"
+    },
+    "amenity-points-supermarket": {
+      "propertyOrder": 83,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "超市"
+    },
+    "amenity-points-bakery": {
+      "propertyOrder": 84,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "面包店"
+    },
+    "amenity-points-bicycle": {
+      "propertyOrder": 85,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "自行车店"
+    },
+    "amenity-points-books": {
+      "propertyOrder": 86,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "书店"
+    },
+    "amenity-points-car": {
+      "propertyOrder": 87,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "汽车店"
+    },
+    "amenity-points-car_repair": {
+      "propertyOrder": 88,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "汽车维修店"
+    },
+    "amenity-points-car_clothes": {
+      "propertyOrder": 89,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "服装店"
+    },
+    "amenity-points-computer": {
+      "propertyOrder": 90,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "电脑店"
+    },
+    "amenity-points-convenience": {
+      "propertyOrder": 91,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "便利店"
+    },
+    "amenity-points-department_store": {
+      "propertyOrder": 92,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "百货商店"
+    },
+    "amenity-points-doityourself": {
+      "propertyOrder": 93,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "手工制作品店"
+    },
+    "amenity-points-dry_cleaning": {
+      "propertyOrder": 94,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "干洗店"
+    },
+    "amenity-points-florist": {
+      "propertyOrder": 95,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "花店"
+    },
+    "amenity-points-gift": {
+      "propertyOrder": 96,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "礼品店"
+    },
+    "amenity-points-greengrocer": {
+      "propertyOrder": 97,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "蔬菜水果店"
+    },
+    "amenity-points-hairdresser": {
+      "propertyOrder": 98,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "理发店"
+    },
+    "amenity-points-jewelry": {
+      "propertyOrder": 99,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "珠宝店"
+    },
+    "amenity-points-mobile_phone": {
+      "propertyOrder": 100,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "手机店"
+    },
+    "amenity-points-optician": {
+      "propertyOrder": 101,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "眼镜店"
+    },
+    "amenity-points-pet": {
+      "propertyOrder": 102,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "宠物店"
+    },
+    "amenity-points-playground": {
+      "propertyOrder": 103,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "玩耍地"
+    },
+    "amenity-points-picnic_site": {
+      "propertyOrder": 104,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "野餐地"
+    },
+    "amenity-points-slipway": {
+      "propertyOrder": 105,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "滑道"
+    },
+    "amenity-points-power_line": {
+      "propertyOrder": 106,
+      "properties": {
+        "line_color": {
+          "type": "string",
+          "format": "color",
+          "title": "线颜色"
+        }
+      },
+      "type": "object",
+      "title": "电线"
+    },
+    "amenity-points-power-lowz": {
+      "propertyOrder": 107,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "高压电线杆"
+    },
+    "amenity-points-power-middlez": {
+      "propertyOrder": 108,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "高压电线杆"
+    },
+    "amenity-points-power-highz": {
+      "propertyOrder": 109,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "高压电线杆"
+    },
+    "amenity-points-pole": {
+      "propertyOrder": 110,
+      "properties": {
+        "marker_image": {
+          "type": "string",
+          "title": "icon"
+        }
+      },
+      "type": "object",
+      "title": "低压电线杆"
+    }
+  }
+}
