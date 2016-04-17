@@ -8,7 +8,7 @@ $.get('/backend/visit', function(data) {
     console.log('你是第' + data.key + '个制图者！');
     mapid = parseInt(data.key);
     
-    tileLayer = L.tileLayer('http://localhost:4321/tile/' + mapid + '/{z}/{x}/{y}&{tileID}', {
+    tileLayer = L.tileLayer('/tile/' + mapid + '/{z}/{x}/{y}&{tileID}', {
     attribution: '&copy; <a href="http://osm.org/copyright" title="OpenStreetMap" target="_blank">OpenStreetMap</a> contributors>',
     zoomControl: false,
     tileID: function() { return tileVersion; }
