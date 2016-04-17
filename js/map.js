@@ -1,15 +1,17 @@
 var mymap = L.map('map-container').setView([39.9, 116.3], 10);
 
 var mapid = 0;
+var tileVersion = 0;
+var tileLayer;
 
 $.get('/backend/visit', function(data) {
     console.log('你是第' + data.key + '个制图者！');
     mapid = parseInt(data.key);
     
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    tileLayer = L.tileLayer('http://localhost:4321/tile/' + mapid + '/{z}/{x}/{y}&{tileID}', {
     attribution: '&copy; <a href="http://osm.org/copyright" title="OpenStreetMap" target="_blank">OpenStreetMap</a> contributors>',
-    subdomains: ['a','b','c'],
-    zoomControl: false
+    zoomControl: false,
+    tileID: function() { return tileVersion; }
 }).addTo(mymap);
 });
 

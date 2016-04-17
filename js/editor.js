@@ -97,13 +97,16 @@ document.getElementById('submit').addEventListener('click', function () {
     
     $.ajax({
         type: 'POST',
-        url: 'http://localhost:3060/style',
+        url: '/tile/style',
         data: {
             styles: styles,
             key: mapid
         },
         success: function(data) {
             console.log('更新地图样式成功！');
+            
+            ++tileVersion;
+            tileLayer.redraw();
         }
     });
     
