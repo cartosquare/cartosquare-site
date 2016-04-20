@@ -306,7 +306,7 @@ var editor_amenity_default = {
     "marker_image": "shop_hairdresser.p.16.png"
   },
   "amenity-points-jewelry": {
-    "marker_image": "shop_jewelry.p.16.png"
+    "marker_image": "shop_jewelry.p_16.png"
   },
   "amenity-points-mobile_phone": {
     "marker_image": "shop_mobile_phone.p_16.png"
