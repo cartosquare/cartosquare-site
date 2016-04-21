@@ -65,7 +65,7 @@ var editor_top_default = {
         "name": "bridges"
       },
       {
-        "name": "rams"
+        "name": "trams"
       },
       {
         "name": "guideways"
