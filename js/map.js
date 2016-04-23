@@ -9,7 +9,7 @@ $.get('/backend/visit', function (data) {
     mapid = parseInt(data.key);
 
     tileLayer = L.tileLayer('/tile/' + mapid + '/{z}/{x}/{y}&retina=1&{tileID}', {
-        attribution: '&copy; <a href="http://osm.org/copyright" title="OpenStreetMap" target="_blank">OpenStreetMap</a> contributors>',
+        attribution: '&copy; <a href="http://osm.org/copyright" title="OpenStreetMap" target="_blank">OpenStreetMap</a> contributors',
         zoomControl: false,
         tileID: function () { return tileVersion; }
     }).addTo(mymap);
