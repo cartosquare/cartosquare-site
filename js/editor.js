@@ -119,17 +119,21 @@ document.getElementById('restore').addEventListener('click', function () {
     }
 });
 
-/*
-$('a#pannel').click(function() {
+
+$('a#panel').click(function() {
     if($("div#editors").is(":hidden")){
-       $("div#editors").show();
        $("div#map-container").width("60%");
+       $("div#editors").show();
+
+       mymap.invalidateSize(); 
     } else {
       $("div#editors").hide(); 
       $("div#map-container").width("100%");
+      
+      mymap.invalidateSize(); 
     }
 });
-*/
+
 
 
 
