@@ -78,8 +78,7 @@ for (var i = 0; i < editorIDList.length; ++i) {
     });
 }
 
-// Hook up the submit button to log to the console
-document.getElementById('submit').addEventListener('click', function () {
+function applyChange() {
     var styles = {};
     
     // Get the value from the editor
@@ -109,7 +108,11 @@ document.getElementById('submit').addEventListener('click', function () {
             tileLayer.redraw();
         }
     });
-    
+}
+
+// Hook up the submit button to log to the console
+document.getElementById('submit').addEventListener('click', function () {
+    applyChange();
 });
 
 // Hook up the Restore to Default button
@@ -117,6 +120,8 @@ document.getElementById('restore').addEventListener('click', function () {
     for (var i = 0; i < editorIDList.length; ++i) {
         editors[editorIDList[i]].setValue(editorDefaultValues[i]);
     }
+    
+    applyChange();
 });
 
 
